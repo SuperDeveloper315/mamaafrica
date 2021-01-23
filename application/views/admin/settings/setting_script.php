@@ -49,6 +49,18 @@ function active_payment_method()
 		$("#payu_div").show();
 	}
 }
+active_print_auto_method();
+function active_print_auto_method()
+{
+	if($("#print_auto:checked").val()=='auto')
+	{
+		$("#auto_div").show();
+	}
+	else
+	{
+		$("#auto_div").hide();
+	}
+}
 $(function(){
        $("#default_timezone").change(function(){
             $('#date_default_timezone').html("");

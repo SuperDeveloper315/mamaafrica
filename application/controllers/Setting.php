@@ -192,6 +192,25 @@ class Setting extends MY_Controller {
             }
             $this->load->view(BASE_TEMPLATE,$this->data);
     }
+    function printing(){
+        $id = _get_current_user_id();
+            
+            if($_POST)
+            {
+                $post = $this->input->post();
+                add_options($post,"printing",true,true);
+            }
+            $setting = get_options_by_type("printing");
+            
+            $this->data["field"] = $setting;
+            if(IS_TEST){
+                $this->data["page_content"] = $this->load->view("disabled",$this->data,true);
+            }else{
+                $this->data["page_content"] = $this->load->view("admin/settings/printing", $this->data, true);
+            }
+            $this->data["page_script"] = $this->load->view("admin/settings/setting_script",$this->data,true);
+            $this->load->view(BASE_TEMPLATE,$this->data);
+    }
     public function keys(){
         $id = _get_current_user_id();
         

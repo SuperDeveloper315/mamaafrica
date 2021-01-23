@@ -82,6 +82,7 @@
              $settings_menu[] = array("menu_title"=>_l("General Settings"),"link"=>site_url("setting"),"menu_icon"=>"nav-icon fas fa-cog","badge"=>"");
              $settings_menu[] = array("menu_title"=>_l("App Settings"),"link"=>site_url("setting/app"),"menu_icon"=>"nav-icon fas fa-cog","badge"=>"");
              $settings_menu[] = array("menu_title"=>_l("Billing Settings"),"link"=>site_url("setting/billing"),"menu_icon"=>"nav-icon fas fa-cog","badge"=>"");
+             $settings_menu[] = array("menu_title"=>_l("Printing Settings"),"link"=>site_url("setting/printing"),"menu_icon"=>"nav-icon fas fa-cog","badge"=>"");
              $settings_menu[] = array("menu_title"=>_l("SMS Settings"),"link"=>site_url("setting/sms_setting"),"menu_icon"=>"nav-icon fas fa-cog","badge"=>"");
              $settings_menu[] = array("menu_title"=>_l("Payment Settings"),"link"=>site_url("setting/payment"),"menu_icon"=>"nav-icon fas fa-cog","badge"=>"");
              $settings_menu[] = array("menu_title"=>_l("Email Settings"),"link"=>site_url("setting/email"),"menu_icon"=>"nav-icon fas fa-cog","badge"=>"");

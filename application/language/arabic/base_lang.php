@@ -96,6 +96,7 @@ $lang["Order Delivered"] = "Order Delivered";
 $lang["General Settings"] = "General Settings";
 $lang["App Settings"] = "App Settings";
 $lang["Billing Settings"] = "Billing Settings";
+$lang["Printing Settings"] = "Printing Settings";
 $lang["Email Settings"] = "Email Settings";
 $lang["Email Templates"] = "Email Templates";
 $lang["App Pages"] = "App Pages";
